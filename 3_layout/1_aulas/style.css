@@ -1,0 +1,39 @@
+/* XS */
+h1 {
+    color: gray;
+}
+
+/* SM */
+@media (min-width: 576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+.btn-primary {
+    background-color: pink;
+    color: white;
+}
+
+#btnId {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    background-color: yellow;
+}
+
+.container-fluid {
+    background-color: green;
+}
+.container-sm {
+    background-color: black;
+}
+.container-md {
+    background-color: orange;
+}
+
+.col-3 {
+    height: 50px;
+}
